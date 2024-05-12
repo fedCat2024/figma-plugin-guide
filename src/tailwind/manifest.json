@@ -1,0 +1,16 @@
+{
+  "name": "Figma to Code",
+  "id": "1353905019525506042",
+  "api": "1.0.0",
+  "main": "apps/plugin/dist/code.js",
+  "ui": "apps/plugin/dist/index.html",
+  "editorType": ["figma", "dev"],
+  "capabilities": ["inspect", "codegen", "vscode"],
+  "permissions": [],
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  },
+  "codegenLanguages": [
+    { "label": "Tailwind (JSX)", "value": "tailwind_jsx" }
+  ]
+}
